@@ -18,3 +18,22 @@ html {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+
+h2 {
+  font-size: 4rem;
+  color: #000;
+}
+
+.btn {
+  text-decoration: none;
+  border: 8px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding: .4em .75em .3em;
+}
+
+header {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
