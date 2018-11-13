@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -53,12 +53,12 @@ header {
 
 .img-flex {
   display: block;
-  width: 100%;
+  width: 150px;
 }
 
 .robo {
   display: block;
-  width: 150px;
+  width: 100%;
 }
 
 p {
@@ -71,5 +71,9 @@ body {
 }
 
 .banner .img-flex {
+  display: flex;
+}
+
+.banner .img {
 
 }
