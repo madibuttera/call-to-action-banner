@@ -9,10 +9,16 @@ html {
 }
 
 .banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
   position: absolute;
-  bottom: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   max-width: 45em;
   width: 100%;
   padding-left: 1.5em;
@@ -33,20 +39,17 @@ h2 {
 
 .btn {
   text-decoration: none;
-  border: 8px solid #333;
+  border: 5px solid #333;
+  border-radius: 8px;
   background-color: #333;
   color: #fff;
   padding: .4em .75em .3em;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
   background-color: #000;
   border-color: #000;
-}
-
-header {
-  position: relative;
-  max-height: 500px;
 }
 
 .img-flex {
@@ -62,6 +65,7 @@ header {
 p {
   margin-top: 0;
   padding-top: .6rem;
+  font-size: 1.5rem;
 }
 
 body {
@@ -69,7 +73,7 @@ body {
 }
 
 .banner .img-flex {
-
+  display: flex;
 }
 
 .banner .img {
