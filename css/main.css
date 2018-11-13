@@ -13,10 +13,11 @@ html {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 50em;
+  max-width: 45em;
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  text-align: left;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
   text-align: left;
   display: inline;
   line-height: 1.4;
+  font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
 
 }
@@ -40,10 +42,6 @@ h2 {
 .btn:hover {
   background-color: #000;
   border-color: #000;
-}
-
-.btn-big {
-
 }
 
 header {
@@ -71,7 +69,7 @@ body {
 }
 
 .banner .img-flex {
-  display: flex;
+
 }
 
 .banner .img {
