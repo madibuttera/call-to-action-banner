@@ -25,6 +25,7 @@ html {
   padding-right: 1.5em;
   text-align: left;
   display: flex;
+  align-content: space-between;
 }
 
 h2 {
@@ -37,7 +38,7 @@ h2 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.btn {
+.btn-big {
   text-decoration: none;
   border: 5px solid #333;
   border-radius: 8px;
@@ -48,14 +49,14 @@ h2 {
   font-weight: bold;
 }
 
-.btn:hover {
+.btn-big:hover {
   background-color: #000;
   border-color: #000;
 }
 
 .img-flex {
   display: block;
-  width: 250px;
+  width: 100%;
   padding-right: 1.5rem;
 }
 
@@ -78,8 +79,4 @@ body {
 .box {
   justify-content: center;
   align-items: center;
-}
-
-.btn-big {
-
 }
