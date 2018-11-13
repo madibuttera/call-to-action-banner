@@ -34,7 +34,6 @@ h2 {
   line-height: 1.4;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
-
 }
 
 .btn {
@@ -45,6 +44,7 @@ h2 {
   color: #fff;
   padding: .4em .75em .3em;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -54,7 +54,8 @@ h2 {
 
 .img-flex {
   display: block;
-  width: 200px;
+  width: 250px;
+  padding-right: 1.5rem;
 }
 
 .robo {
@@ -73,9 +74,13 @@ body {
 }
 
 .banner .img-flex {
-  display: flex;
+  float: left;
 }
 
 .banner .img {
+  display: flex;
+}
 
+.box {
+  align-items: center;
 }
